@@ -24,6 +24,9 @@ namespace kuju {
 
 //% color=#ff6680 weight=100 icon="\uf009" block="Devices"
 namespace device {
+    //% blockId=smart block="Connect Smart Devices"
+    export function smart(): void {
 
+    }
 
 }
