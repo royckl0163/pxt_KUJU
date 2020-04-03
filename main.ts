@@ -15,7 +15,9 @@ enum mode {
     //% block="HIGH mode"
     HIGH,
     //% block="LOW mode"
-    LOW
+    LOW,
+    //% block="OFF"
+    OFF
 }
 
 enum open_close {
