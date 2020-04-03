@@ -18,6 +18,13 @@ enum mode {
     LOW
 }
 
+enum open_close {
+    //% block="open"
+    open,
+    //% block="close"
+    close
+}
+
 //% color=#ff8c1a weight=100 icon="\uf009" block="KUJU"
 namespace kuju {
     //% blockId=onPlug block="set Smart Plug to %_plugVal"
@@ -47,5 +54,19 @@ namespace device {
     export function smart(): void {
 
     }
+
+    //% blockId=isPlugOpen block="Smart Plug is %_plugStatus"
+    export function isPlugOpen(_status: ON_OFF): boolean {
+
+        return true;
+    }
+
+    //% blockId=isDoorOpen block="Door is %_doorStatus"
+    export function isDoorOpen(_status: open_close): boolean {
+
+        return true;
+    }
+
+    
 
 }
