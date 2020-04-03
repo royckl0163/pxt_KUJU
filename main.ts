@@ -87,6 +87,11 @@ namespace device {
 
     }
 
+    //% blockId=wifi block="Connect WiFi Name %user Password %pwd"
+    export function wifi(_username: string, _pwd: string): void {
+
+    }
+
 }
 
 //% color=#ffab19 weight=100 icon="\uf009" block="Wait"
