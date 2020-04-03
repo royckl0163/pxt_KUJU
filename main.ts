@@ -74,7 +74,7 @@ namespace device {
         return true;
     }
 
-    //% blockId=isPpl block=%_pplStatus one here"
+    //% blockId=isPpl block=%_pplStatus|one here"
     export function isPpl(_status: ppl): boolean {
 
         return true;
