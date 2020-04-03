@@ -86,3 +86,12 @@ namespace device {
     }
 
 }
+
+//% color=#ffab19 weight=100 icon="\uf009" block="Wait"
+namespace device {
+    //% blockId=waitTime block="wait %sec seconds"
+    export function waitTime(_time: number): void {
+
+    }
+
+}
