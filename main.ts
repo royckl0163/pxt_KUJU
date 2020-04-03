@@ -80,6 +80,9 @@ namespace device {
         return true;
     }
 
-    
+    //% blockId=gateway block="Connect KUJU Gateway %user Password %pwd"
+    export function gateway(_username: string, _pwd: string): void {
+
+    }
 
 }
