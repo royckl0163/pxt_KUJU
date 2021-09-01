@@ -2,6 +2,15 @@
  * KUJU Block Design
  */
 
+enum connectorServoMotor {
+    //% block="P13"
+    P13 = AnalogPin.P13,
+    //% block="P14"
+    P14 = AnalogPin.P14,
+    //% block="P15"
+    P15 = AnalogPin.P15
+}
+
 enum ON_OFF {
     //% block="ON"
     ON,
@@ -107,7 +116,7 @@ namespace wait {
 namespace artecrobo {
     
     //% blockId=setServoAsync block="同時轉動伺服馬達|速度:%_speed|P13到:%_angle13 度|P14到:%_angle14 度|P15到:%_angle15 度"
-    export function onLight(_status: ON_OFF): void {
+    export function setServoAsync(_speed: number, _angle13: number, _angle14: number, _angle15: number): void {
 
     }
 }
