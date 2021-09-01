@@ -107,7 +107,7 @@ namespace wait {
 namespace artecrobo {
     
     //% blockId=setServoAsync 
-    //% block="同時轉動伺服馬達|速度:%_speed|P13 to:| %_angle13 sec|P14 to:| %_angle14 deg|P15 to :| %_angle15 deg"
+    //% block="同時轉動伺服馬達|速度:%_speed|P13 to: %_angle13 sec|P14 to: %_angle14 deg|P15 to: %_angle15 deg"
     export function setServoAsync(_speed: number, _angle13: number, _angle14: number, _angle15: number): void {
 
     }
