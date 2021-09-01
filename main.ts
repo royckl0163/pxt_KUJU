@@ -106,7 +106,8 @@ namespace wait {
 //% color=#5b99a5 weight=100 icon="\uf009" block="ArtecRobo"
 namespace artecrobo {
     
-    //% blockId=setServoAsync block="同時轉動伺服馬達|速度:%_speed|P13到: %_angle13|度|P14到: %_angle14 度|P15到: %_angle15 度"
+    //% blockId=setServoAsync 
+    //% block="同時轉動伺服馬達 | 速度:%_speed | P13到: %_angle13 度 | P14到: %_angle14 度 | P15到: %_angle15 度"
     export function setServoAsync(_speed: number, _angle13: number, _angle14: number, _angle15: number): void {
 
     }
