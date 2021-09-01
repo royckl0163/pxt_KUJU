@@ -103,7 +103,7 @@ namespace wait {
 
 }
 
-//% color=#5b99a5 weight=120 icon="\uf009" block="ArtecRobo"
+//% color=#5b99a5 weight=180 icon="\uf009" block="ArtecRobo"
 namespace artecrobo {
     
     //% blockId=setServoAsync 
